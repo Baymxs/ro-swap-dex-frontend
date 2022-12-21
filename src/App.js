@@ -1,11 +1,9 @@
 import React from "react";
-import 'bootswatch/dist/lux/bootstrap.min.css';
-import Header from "./components/header/Header";
+import "bootswatch/dist/lux/bootstrap.min.css";
+import PageRouter from "./PageRouter";
 
 function App() {
-  return (
-      <Header/>
-  );
+  return <PageRouter />;
 }
 
 export default App;

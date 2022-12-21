@@ -1,0 +1,38 @@
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-menu {
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s ease-out;
+  display: block;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.dropdown-menu.show {
+  opacity: 1;
+}
+
+.dropdown-menu {
+  border-radius: 10px;
+}
+
+.dropdown-item:active {
+  background-color: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: white;
+}
+
+.show > .nav-link {
+  color: rgba(255, 255, 255, 0.55) !important;
+}
